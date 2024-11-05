@@ -1,0 +1,43 @@
+th {
+
+    color: purple;
+}
+
+#id1 {
+    color: green;
+}
+
+#blog > h1 {
+    color: blue;
+    
+  }
+
+h1::before {
+    /* add content before h1, "Note: " in this case,  */
+    content: "Note: ";
+}
+
+h1::first-letter{
+    font-size: 2em;
+    color: red;
+}
+#css1
+{
+    border-width : thin;
+}
+
+.parent {
+    border: 4px solid red;
+  }
+
+.child
+{
+    display : block;
+    width : 50%;
+    border: 4px solid green;
+    margin: auto; 
+    float: left; 
+    /* L/R alignment */
+
+    /* auto = calculate auto margin -> to be center */
+}
